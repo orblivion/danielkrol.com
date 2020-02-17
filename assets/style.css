@@ -1,0 +1,48 @@
+.home img {
+    max-width: 25%;
+    min-width: 200px;
+    height: auto;
+}
+
+.site-title {
+}
+
+.outer {
+    margin-top: 3em;
+}
+
+.outer a:link, .outer a:visited, .outer a:hover, .outer a:active {
+    color: #58A;
+    text-decoration: none
+}
+
+.inner {
+    background: #fafaff;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+}
+
+/* General */
+body {
+    margin: 0;
+    line-height: 1.5em;
+    color: #333333;
+    font-family: helvetica, arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
+    line-height: 1.2em;
+    margin-top: 1em;
+    clear: both;
+}
+
+a:link, a:visited {
+    color: #0000e0;
+    text-decoration: none
+}
+
+a:hover, a:active {
+    color: #0000ff;
+    text-decoration: underline
+}
