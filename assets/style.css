@@ -22,7 +22,6 @@
     border-bottom-right-radius:20px;
 }
 
-/* General */
 body {
     margin: 0;
     line-height: 1.5em;
@@ -45,4 +44,11 @@ a:link, a:visited {
 a:hover, a:active {
     color: #0000ff;
     text-decoration: underline
+}
+
+main {
+    max-width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0.5em;
 }
