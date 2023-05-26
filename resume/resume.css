@@ -573,6 +573,9 @@ ul li dt {
   ol li:nth-child(2) {
     border-top: none;
   }
+  dl dt em {
+    padding-bottom: .4em;
+  }
 }
 @media screen and (min-width: 57em) {
   .container {
