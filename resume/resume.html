@@ -1,0 +1,313 @@
+<style type="text/css">
+.nohtml {
+ display: none;
+}
+</style>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>resume</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <style type="text/css">
+  /*
+   * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+   *
+   * CSS for making a resume with pandoc. Inspired by moderncv. (Altered by Dan Krol)
+   *
+   * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+   * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+   */
+
+  /* Whole document */
+  body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      max-width: 800px;
+      margin: auto;
+      background: #FFFFFF;
+      padding: 10px 10px 10px 10px;
+  }
+
+  /* Title of the resume */
+  h1 {
+      font-size: 55px;
+      color: #757575;
+      text-align:center;
+      margin-bottom:15px;
+  }
+  /* h1:hover { */
+  /*     background-color: #757575; */
+  /*     color: #FFFFFF; */
+  /*     text-shadow: 1px 1px 1px #333; */
+  /* } */
+
+  /* Titles of categories */
+  h2 {
+      /* This is called "sectioncolor" in the ConTeXt stylesheet. */
+      color: #397249;
+  }
+  /* There is a bar just before each category */
+  h2:before, h3:before {
+      content: "";
+      display: inline-block;
+      margin-right:1%;
+      height: 10px;
+  }
+
+  h2:before {
+      /* This is called "rulecolor" in the ConTeXt stylesheet. */
+      width: 16%;
+      background-color: #9CB770;
+  }
+  h3:before {
+      /* This is called "smallrulecolor" in the ConTeXt stylesheet. */
+      /*margin-left:3%;*/
+      width: 13%;
+      background-color: #CCC;
+  }
+  /* h2:hover { */
+  /*     background-color: #397249; */
+  /*     color: #FFFFFF; */
+  /*     text-shadow: 1px 1px 1px #333; */
+  /* } */
+
+  /* Definitions */
+  dt {
+      float: left;
+      clear: left;
+      width: 17%;
+      font-weight: bold;
+  }
+  dd {
+      margin-left: 17%;
+      margin-bottom:7px;
+  }
+  p {
+      margin-top:0;
+      margin-bottom:7px;
+  }
+
+  /* Blockquotes */
+  blockquote {
+      text-align: left;
+      padding-left: 3em;
+  }
+
+  /* Links */
+  a {
+      text-decoration: none;
+      color: #397249;
+  }
+  a:hover, a:active {
+      background-color: #397249;
+      color: #FFFFFF;
+      text-decoration: none;
+      text-shadow: 1px 1px 1px #333;
+  }
+
+  /* Horizontal separators */
+  hr {
+      color: #A6A6A6;
+  }
+
+  table {
+      width: 100%;
+  }
+
+  /* horizontal lists */
+  ol {
+    margin: 0px;
+    padding: 0px;
+  }
+  ol li {
+      display: inline-block;
+      width: 25%;
+      border-left: 1px solid black;
+      padding-left: 2em;
+  }
+
+  </style>
+
+  <script>
+  if (window.location.search === "?debug") {
+  	setTimeout(() => {
+  		window.location = window.location
+  	}, 5000)
+
+  	document.addEventListener("DOMContentLoaded", function(event) {
+  	    var scrollpos = localStorage.getItem('scrollpos');
+  	    if (scrollpos) window.scrollTo(0, scrollpos);
+  	});
+
+  	window.onbeforeunload = function(e) {
+  	    localStorage.setItem('scrollpos', window.scrollY);
+  	};
+  }
+  </script>
+</head>
+<body>
+<h1 id="daniel-krol">Daniel Krol</h1>
+<center>
+<a href="https://github.com/orblivion/me" target="_blank">portfolio</a> • <a href="https://github.com/orblivion" target="_blank">github</a> • <a href="mailto:dan@danielkrol.com">dan@danielkrol.com</a> <span class="nopdf">• <a href="resume.pdf">Download PDF</a></span>
+</center>
+<h2 id="senior-software-developer">Senior Software Developer</h2>
+<hr />
+<blockquote>
+<p><strong>Values</strong>: Clean code, Clean data, Clear team communication.</p>
+</blockquote>
+<blockquote>
+<p><strong>Skill highlights</strong>: Python, Go, Node.js, TypeScript, Blockchain, Linux, Functional Programming</p>
+</blockquote>
+<hr />
+<h2 id="work-history">Work History</h2>
+<!-- "part time" -->
+<!-- "Manchester, NH" -->
+<h3 id="lbry---blockchain-based-media-platform">LBRY - Blockchain-based media platform</h3>
+<p><strong>Software Engineer</strong> - Oct 2021-Nov 2022</p>
+<p>Contributed to and lead various projects related to blockchain and distributed systems, including:</p>
+<ul>
+<li><strong>Wallet Sync Server</strong>: Designed and implemented <a href="https://github.com/lbryio/wallet-sync-server" target="_blank">non-custodial cryptocurrency wallet sync</a> for LBRY. Syncing encrypted wallet between client and server with a single password, securely, without losing data.</li>
+<li><strong>ActivityPub Integration</strong>: Researched and worked on ActivityPub integration for LBRY, to enable federated social features such as comments, likes and follows.</li>
+<li><strong>JavaScript Wallet</strong>: Created proof-of-concept implementation of LBRY wallet in JavaScript for signing transactions in the browser.</li>
+</ul>
+<h3 id="electionbettingodds.com">ElectionBettingOdds.com</h3>
+<p><strong>Software Development Contractor</strong> - Oct 2020-Oct 2022</p>
+<p>ElectionBettingOdds.com is an aggregator of betting odds on the outcomes of key events, usually elections, from various betting websites. I made various improvements to the site, including:</p>
+<ul>
+<li><strong>Electability Feature</strong>: Implemented the “Electability” feature, factoring in odds for primary and general election victory.</li>
+<li><strong>Data Sources</strong>: Greatly improved the flexibility in adding and combining betting websites as data sources.</li>
+<li><strong>Error Handling</strong>: Improved error handling and tolerance.</li>
+<li><strong>Data History Format</strong>: Made data history format more robust and useful.</li>
+</ul>
+<h3 id="sandstorm-community-project">Sandstorm Community Project</h3>
+<p><strong>Open Source Web Application Developer</strong> - Oct 2021-Mar 2023</p>
+<p>Developed applications for Sandstorm, an open source platform for self-hosted web applications, both as a volunteer and as a contractor.</p>
+<ul>
+<li><strong>New Map Application</strong>: Created a new <a href="https://github.com/orblivion/sandstorm-share-a-map" target="_blank">fully self-hosted OpenStreetMap application</a>.</li>
+<li><strong>Kiwix Package</strong>: Created a <a href="https://apps.sandstorm.io/app/5uh349d0kky2zp5whrh2znahn27gwha876xze3864n0fu9e5220h" target="_blank">package for Kiwix</a>, an existing application for hosting mirrors of open data websites such as Wikipedia or Project Gutenberg.</li>
+<li><strong>Etherpad Upgrade</strong>: Upgraded the existing Sandstorm package for <a href="https://apps.sandstorm.io/app/h37dm17aa89yrd8zuqpdn36p6zntumtv08fjpu8a8zrte7q1cn60" target="_blank">Etherpad</a>.</li>
+</ul>
+<h3 id="etherpad">Etherpad</h3>
+<p><strong>Open Source Developer</strong> - Apr 2020-Jul 2020</p>
+<p>Contributed to Etherpad, a prominent open-source web-based word processor, implemented in JavaScript. Projects included:</p>
+<ul>
+<li><strong>WebRTC Plugin</strong>: Fixed error messages and ensured cross-browser compatibility, enhancing user A/V chat experience within collaborative documents.</li>
+<li><strong>Color Picker</strong>: Corrected user’s avatar color in shared documents, implemented validation test coverage.</li>
+<li><strong>Test Suite</strong>: Identified and resolved inaccuracies in cookie reset mechanisms during tests, eliminating potential false positives and reinforcing the reliability of test results.</li>
+<li><strong>Developer Documentation</strong>: Refined WebRTC plugin documentation, streamlining the onboarding process for future contributors.</li>
+</ul>
+<!-- "San Francisco, CA" -->
+<h3 id="mix.com---curation-based-content-recommendation">Mix.com - Curation-based content recommendation</h3>
+<p><strong>Platform Engineer</strong> - Nov 2016-Sept 2019</p>
+<p>I was part of the API team at Mix.com, an application that recommends content based on user curation. The components I worked on were written in Go and Node.js.</p>
+<p>The major part of my job was coordinating with the Recommendation Service team on taxonomy of topics, architectural decisions, and turning user events into feedback for future recommendations.</p>
+<!-- "San Francisco, CA" -->
+<h3 id="basis-an-intel-company---activity-and-sleep-tracking">Basis (an Intel company) - Activity and sleep tracking</h3>
+<p><strong>Backend Engineer</strong> - Apr 2015-Nov 2016</p>
+<p>I was part of a small team that managed the API for an athletic watch at Basis, part of Intel’s now defunct wearables division.</p>
+<p>The most interesting project I was involved in was smoothly transitioning each user to an updated sleep data stream. This was complicated by users having firmware versions, time zones, and other factors. In the end we mostly avoided interruptions in both individual sleep events and daily aggregates.</p>
+<p>Some of my responsibilities included:</p>
+<ul>
+<li>Representing user activities to phone apps.</li>
+<li>Deploying servers via SaltStack.</li>
+<li>Keeping system metrics.</li>
+</ul>
+<p style="page-break-after: always">
+</p>
+<!-- "Chicago, IL / San Francisco, CA" -->
+<h3 id="brilliant-formerly-alltuition---online-stem-challenges">Brilliant (formerly Alltuition) - Online STEM challenges</h3>
+<p><strong>Senior Engineer</strong> - Jul 2011-Nov 2014</p>
+<p>Among the first few Python/Django engineers at <strong>Brilliant.org</strong>.</p>
+<ul>
+<li>Helped design backend and database schema for the initial STEM problem solving interface.</li>
+<li>Created UI framework on top of Django that facilitated in-page component updates via ajax, but degraded seamlessly to no-JavaScript for old browsers.</li>
+<li>Integrated analytics and A/B testing, connecting user events to various 3rd party analytics services.</li>
+</ul>
+<p>Backend Python/Django developer for <strong>Alltuition</strong>, which offered streamlined student loan services.</p>
+<ul>
+<li>Improved loan consolidation rate prediction system.</li>
+<li>Conducted Mechanical Turk based research project.</li>
+<li>Created Python Client Library for 3rd party API.</li>
+</ul>
+<h2 id="other-contracting">Other Contracting</h2>
+<p><strong>Datamaglia</strong> - <em>Dec 2014-Feb 2015</em> - Django development</p>
+<p><strong>Voyager Tech</strong> - <em>May 2011-Jul 2011</em> - Django development</p>
+<p><strong>Shelfworthy</strong> - <em>Apr 2010-Oct 2010</em> - Django development</p>
+<p><strong>Reuseit</strong> - <em>Nov 2009-Dec 2009, Feb 2011-Jul 2011</em></p>
+<p>PHP/SQL development. Feature/bug fixes for site, store and shipping systems.</p>
+<p><strong>Brilliant</strong> - <em>Oct 2020-Jul 2021</em></p>
+<p>Planning and writing interactive online computer science course material.</p>
+<h2 id="open-source-projects">Open Source Projects</h2>
+<p>See: <a href="https://github.com/orblivion/me" target="_blank">Open Source Portfolio</a>.</p>
+<h2 id="education">Education</h2>
+<dl>
+<dt>2001-2005</dt>
+<dd><strong>B.S., Computer Engineering</strong>; Illinois Institute Of Technology (Chicago, IL)
+</dd>
+<dt>2014</dt>
+<dd><p><strong>Functional Programming Principles in Scala</strong>; Coursera (Online)</p>
+<p>See: <a href="https://www.coursera.org/records/yjD8PGuY9cGQpE5g" target="_blank">Course Record</a></p>
+</dd>
+<dt>2014</dt>
+<dd><p><strong>Erlang Camp</strong> (Austin, TX)</p>
+<p><em>A weekend-long crash course in Erlang and OTP</em></p>
+</dd>
+</dl>
+<h2 id="skills">Skills</h2>
+<h4 id="languages">Languages</h4>
+<ol type="1">
+<li><p>Python</p></li>
+<li><p>Go</p></li>
+<li><p>Node.js</p></li>
+<li><p>TypeScript</p></li>
+<li><p>Haskell</p></li>
+</ol>
+<h4 id="tools">Tools</h4>
+<ol type="1">
+<li><p>Django</p></li>
+<li><p>Flask</p></li>
+<li><p>PostgreSQL</p></li>
+<li><p>Angular</p></li>
+<li><p>Ansible</p></li>
+<li><p>SaltStack</p></li>
+<li><p>Docker</p></li>
+<li><p>AWS</p></li>
+<li><p>Kafka</p></li>
+</ol>
+<h4 id="operating-systems">Operating Systems</h4>
+<ol type="1">
+<li>Ubuntu/Debian</li>
+<li>QubesOS</li>
+<li>OSX</li>
+</ol>
+<h4 id="other">Other</h4>
+<ol type="1">
+<li><p>Test Driven Development</p></li>
+<li><p>Functional Programming</p></li>
+<li><p>WebRTC</p></li>
+<li><p>Blockchain</p></li>
+<li><p>WebSockets</p></li>
+<li><p>APNS</p></li>
+</ol>
+<hr />
+<h2 id="interests-and-activities">Interests and Activities</h2>
+<ol type="1">
+<li>Juggling</li>
+<li>Biking</li>
+<li>Editing OpenStreetMap</li>
+</ol>
+<hr />
+<center>
+&lt;<a href="mailto:dan@danielkrol.com">dan@danielkrol.com</a>&gt; • September 21 2023
+</center>
+</body>
+</html>
