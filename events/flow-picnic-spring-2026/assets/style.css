@@ -46,10 +46,19 @@ h2 {
 h3 {
     font-size: 3em;
 }
-p, ul {
+p {
     font-size: 2em;
     line-height: 1.2em;
     text-align: justify;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+ul {
+    font-size: 2em;
+    line-height: 1.2em;
+    text-align: justify;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 .alert {
